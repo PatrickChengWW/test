@@ -1,0 +1,7 @@
+- name: SledAcCycle
+  proxy: controller
+  reboot: true
+  wholesled: true
+  retries: 1
+  args:
+     always: true
